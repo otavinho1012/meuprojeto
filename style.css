@@ -1,0 +1,79 @@
+h1{
+    /* font-family:  é a fonte; */
+    font-family: 'Inter', sans-serif;
+    /* font-size é o tamanho da fonte; */
+    font-size: 46PX;
+    /* line height permite controlar o espaçamento entre as linhas de um texto */
+    line-height: 56PX;
+    /* font-weight especifica o peso ou a intensidade da fonte, alterando o negrito */
+    font-weight: normal;
+}
+/* Estou entrando denro do span que está no h1, ou seja estou especificando qual realmente eu quero */
+h1 span {
+    /* bold  é 700px*/
+font-weight: bold;
+
+}
+#hero{
+    /* A partir do momendo quando eu defino a largura de algo,
+     meio que forma um container padrão para o text align seguir!
+     e para isso eu crio o margin, ele padroniza espaços  */
+/* Largura do site */
+width: 592px;
+/* margin: 72px auto 72px ; A primeira é pra cima, a segunda é para os lados, e a terceira é pra baixo */
+/* right - direita e lef esquerda margin: 72px(top) 20px(right) 30px(left: ;) 72px(bottom) ; */
+margin: 72px auto 72px ;
+}
+
+hero img {
+/* margin para cima e para baixo */
+margin-bottom: 72px;
+
+}
+
+/* Estou falando que tanto a tag A ou P tem o mesmo estilo */
+/* body,p,a */
+body{
+    /* pro padrão os navegadores gostam de colocar a margin top como de 8px, mas para zerar basta apenas coloca-lá no 0 */
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+span, a{
+
+    color: #FF9900;
+}
+
+
+p, #footer  {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0px 0px 2px 0px;
+}
+/* Pegue um "a" ANTERIOR A ELE */
+#footer a + a {
+
+ margin-LEFT: 28px;
+
+}
+
+.line {
+    /* Altura */
+    height: 0px;
+    width: 568px;
+    border: 1px #ECEFF2 solid;
+    margin:  auto;
+    margin-bottom: 8px;
+}
+
+#balls{
+    /* Defino a posição de algo */
+    position: fixed ;
+    /* Defino onde ele irá ficar no topo */
+    top: 10px;
+    left: 40px;
+    
+    
+}
